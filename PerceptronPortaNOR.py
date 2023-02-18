@@ -13,7 +13,6 @@ maxiterations = 100 #Numero máximo de iterações que podem ocorrer
 w1 = random.uniform(-0.2, 0.2)
 w2 = random.uniform(-0.2, 0.2)
 w0 = 1
-bias = random.uniform(-0.2, 0.2) #bias
 
 error = random.uniform(-0.2, 0.2)
 count = 0
