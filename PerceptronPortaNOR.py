@@ -9,7 +9,7 @@ import random
 entradas = [[0, 0, 0], [0, 1, 0], [1, 0, 0], [1, 1, 1]] #Entrada para porta NOR
 target = [1, 0, 0, 0]
 eta = 0.3 #Passo de aprendizado
-maxiterations = 100 #Numero máximo de iterações que podem ocorrer
+maxiterations = 10 #Numero máximo de iterações que podem ocorrer
 #Definindo os pesos e o bias
 w1 = random.uniform(-0.2, 0.2)
 w2 = random.uniform(-0.2, 0.2)

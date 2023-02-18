@@ -9,15 +9,15 @@ import random
 
 entradas = [[0, 0, 0], [0, 1, 0], [1, 0, 0], [1, 1, 1]] #Entrada para porta NAND
 target = [0, 1, 1, 1]
-eta = 0.3 #Passo de aprendizado
-maxiterations = 100 #Numero máximo de iterações que podem ocorrer
+eta = 0.7 #Passo de aprendizado
+maxiterations = 20 #Numero máximo de iterações que podem ocorrer
 #Definindo os pesos e o bias
-w1 = random.uniform(-0.2, 0.2)
-w2 = random.uniform(-0.2, 0.2)
-w0 = random.uniform(-0.2, 0.2)
+w1 = random.uniform(-0.7, 0.7)
+w2 = random.uniform(-0.7, 0.7)
+w0 = random.uniform(-0.7, 0.7)
 x0 = 1
 
-error = random.uniform(-0.2, 0.2)
+error = random.uniform(-0.7, 0.7)
 count = 0
 
 while count < maxiterations and error != 0:
